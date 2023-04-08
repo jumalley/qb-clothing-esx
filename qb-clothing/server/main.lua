@@ -1,5 +1,4 @@
-ESX = nil
-TriggerEvent('QBCore:GetObject', function(obj) ESX = obj end)
+ ESX = exports["es_extended"]:getSharedObject()
 
 -- Code
 
